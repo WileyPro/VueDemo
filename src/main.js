@@ -6,6 +6,9 @@ import router from './router'
 import VueResource from 'vue-resource'
 import md5 from 'js-md5'
 
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.js'
+
 Vue.config.productionTip = false
 Vue.use(VueResource)
 Vue.prototype.$md5 = md5
